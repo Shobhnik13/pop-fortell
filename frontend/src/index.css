@@ -1,3 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.connectBtn{
+    margin-right: 18px;
+    width: max-content;
+    height: max-content;
+    padding: 19px;
+    font-size: 18px;
+    border-radius: 15px;
+    margin-top: 8px;
+background-color:#292929
+}
+.anton{
+    font-family: 'Anton', sans-serif;
+}
+.text-span {
+    background-image:url('./assets/bottom.svg') ;
+    background-position: 50% 100%;
+    background-size: 138px;
+    background-repeat: no-repeat;
+}
