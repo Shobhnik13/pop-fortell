@@ -1,4 +1,5 @@
 import React from "react";
+import { Link, useNavigate } from "react-router-dom"
 import Navbar from "../Components/Navbar";
 import Playground from "./Playground";
 import t1 from "../assets/T1.png";
@@ -8,13 +9,20 @@ import t4 from "../assets/t7.png";
 import t5 from "../assets/t5.png";
 import t6 from "../assets/t6.png";
 import giphy from "../assets/giphy.gif";
+import Details from "../Components/Details";
+import Carousel from "../Components/CarouselComp";
 const Home = () => {
+  const navigate = useNavigate();
+  const NavigateFunctions = () => {
+    navigate("/playground");
+  
+  }
   return (
-    <div className="bg-black h-[100vh] bg-[url('./assets/tiles.svg')]">
+    <div className="bg-black h-[400vh] bg-[url('./assets/tiles.svg')]">
       <Navbar />
-      <div className="flex flex-col mt-[100px]">
+      <div className="flex flex-col mt-[200px]">
         {" "}
-        <h1 className="text-6xl mt-9 anton text-fuchsia-500  text-center">
+        <h1 className="text-8xl mt-9 anton text-fuchsia-500  text-center">
           Trust your Instinct and <span className="text-span">Earn</span>{" "}
         </h1>
         <p className="text-2xl mt-5 text-zinc-400 text-center font-medium">
@@ -30,7 +38,7 @@ const Home = () => {
           }}
         ></div>
         <div className="flex justify-center">
-        <div className="connectBtn text-fuchsia-500 font-semibold ">Play and Earn</div>
+        <Link to="/playground"><div className="connectBtn text-fuchsia-500 font-semibold ">Play and Earn</div></Link>
         <div className="connectBtn text-fuchsia-500 font-semibold">Learn More</div>
         </div>
       </div>
@@ -44,7 +52,7 @@ const Home = () => {
             <img src={t4} alt="" width="500px"className="my-3 rounded-lg absolute  top-[600px] left-[540px]"/>
             <img src={t5} alt="" width="400px"className="my-3 rounded-lg absolute  top-[600px] left-[1122px]"/>
             <img src={t6} alt="" width="500px"className="my-3 rounded-lg top-[520px] left-[600px]"/> */}
-      <Playground />
+<Carousel/>
     </div>
   );
 };
