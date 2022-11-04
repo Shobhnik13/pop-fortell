@@ -11,6 +11,7 @@ import t6 from "../assets/t6.png";
 import giphy from "../assets/giphy.gif";
 import Details2 from "../Components/Details2";
 import CarouselComp from "../Components/CarouselComp";
+import Footer from "../Components/Footer";
 const Home = () => {
   const navigate = useNavigate();
   const NavigateFunctions = () => {
@@ -18,7 +19,7 @@ const Home = () => {
   
   }
   return (
-    <div className="bg-black h-[450vh] bg-[url('./assets/tiles.svg')]">
+    <div className="bg-black h-[380vh] bg-[url('./assets/tiles.svg')]">
       <Navbar />
       <div className="flex flex-col mt-[200px]">
         {" "}
@@ -42,8 +43,10 @@ const Home = () => {
         <div className="connectBtn text-fuchsia-500 font-semibold">Learn More</div>
         </div>
       </div>
-<CarouselComp/>
+
    <Details2/>
+   <CarouselComp/>
+   <Footer/>
     </div>
   );
 };
