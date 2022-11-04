@@ -10,15 +10,34 @@
     padding: 19px;
     font-size: 18px;
     border-radius: 15px;
-    margin-top: 8px;
+    margin-top: 15px;
 background-color:#292929
 }
 .anton{
     font-family: 'Anton', sans-serif;
 }
 .text-span {
-    background-image:url('./assets/bottom.svg') ;
+    background-image:url('./assets/bottom.png') ;
     background-position: 50% 100%;
     background-size: 138px;
     background-repeat: no-repeat;
 }
+/* width */
+::-webkit-scrollbar {
+    width: 4px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(217 70 239);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(217 70 239);
+  }
