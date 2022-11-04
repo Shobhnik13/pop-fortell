@@ -13,6 +13,12 @@
     margin-top: 15px;
 background-color:#292929
 }
+.connectBtn:hover{
+cursor: pointer;
+  color: black;
+background-color: rgb(190, 101, 190);
+transition: all 0.5s;
+}
 .anton{
     font-family: 'Anton', sans-serif;
 }

@@ -38,7 +38,7 @@ const Home = () => {
           }}
         ></div>
         <div className="flex justify-center">
-        <Link to="/playground"><div className="connectBtn text-fuchsia-500 font-semibold ">Play and Earn</div></Link>
+        <Link to="/playground"><div className="connectBtn text-fuchsia-500 font-semibold  ">Play and Earn</div></Link>
         <div className="connectBtn text-fuchsia-500 font-semibold">Learn More</div>
         </div>
       </div>
