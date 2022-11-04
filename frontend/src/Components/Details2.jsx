@@ -6,7 +6,7 @@ import prediction from '../assets/pred3.png'
 const Details2 = () => {
   return (
     <div>
-    <div className='flex '>
+    <div className='flex bg-[#101010] space-x-8 mt-8 w-[90%] m-auto rounded-3xl'>
         <div className="text flex flex-col w-[60%]">
             <div className="uppertext font-bold text-white text-3xl  py-12 mx-12">
                 Lorem ipsum dolor sit amet consectetur adipisicing.
@@ -22,7 +22,8 @@ Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit libero corpor
 <img src={pred} alt="" className='rounded-lg'/>
         </div>
     </div>
-    <div className='flex '>
+
+    <div className='flex  w-[90%] m-auto rounded-3xl  bg-[#101010] mt-12'>
         <div className="img mt-16 px-6 w-[40%] ">
         <img src={predi} alt="" className='rounded-lg'/>
         </div>
@@ -38,7 +39,7 @@ Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit libero corpor
             </div>
         </div>
     </div>
-    <div className='flex '>
+    <div className='flex  w-[90%] m-auto rounded-3xl  bg-[#101010] mt-12'>
         <div className="text flex flex-col w-[60%]">
             <div className="uppertext font-bold text-white text-3xl  py-12 mx-12">
                 Lorem ipsum dolor sit amet consectetur adipisicing.
