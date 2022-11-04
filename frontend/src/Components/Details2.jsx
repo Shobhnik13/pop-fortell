@@ -50,8 +50,8 @@ Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque ex dicta aut ame
 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit libero corporis sint, expedita beatae vel facere soluta voluptatem, quod sequi reprehenderit dolorem consequatur dolor deleniti veritatis autem at. Eaque voluptatum tempora rerum ex neque culpa aut ipsa alias nam id.
             </div>
         </div>
-        <div className="img  px-6 w-[40%] ">
-<img src={prediction} alt="" className='rounded-lg'/>
+        <div className="img  px-6 w-[40%]   ">
+<img src={prediction} alt="" className='rounded-lg mb-12'/>
         </div>
     </div>
     </div>
