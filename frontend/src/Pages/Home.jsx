@@ -8,9 +8,10 @@ import t4 from "../assets/t7.png";
 import t5 from "../assets/t5.png";
 import t6 from "../assets/t6.png";
 import giphy from "../assets/giphy.gif";
+import Details2 from "../Components/Details2";
 const Home = () => {
   return (
-    <div className="bg-black h-[100vh] bg-[url('./assets/tiles.svg')]">
+    <div className="bg-black h-[400vh] bg-[url('./assets/tiles.svg')]">
       <Navbar />
       <div className="flex flex-col mt-[100px]">
         {" "}
@@ -44,7 +45,7 @@ const Home = () => {
             <img src={t4} alt="" width="500px"className="my-3 rounded-lg absolute  top-[600px] left-[540px]"/>
             <img src={t5} alt="" width="400px"className="my-3 rounded-lg absolute  top-[600px] left-[1122px]"/>
             <img src={t6} alt="" width="500px"className="my-3 rounded-lg top-[520px] left-[600px]"/> */}
-      <Playground />
+  <Details2/>
     </div>
   );
 };
