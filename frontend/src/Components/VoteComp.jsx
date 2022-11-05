@@ -2,7 +2,7 @@ import React from 'react'
 
 const VoteComp = () => {
   return (
-    <div className='flex flex-row flex-wrap mx-4 justify-evenly mt-6'>
+    <div className='flex flex-row flex-wrap mx-4 justify-evenly mt-6 font2 font-medium'>
 
         <div className='main w-[45%] bg-[#101010] p-[30px] hover:cursor-pointer rounded-2xl hover:bg-black '>
             <div className='text-white question'><span className='  font-semiboldbold text-2xl text-fuchsia-500'>Fan theory: </span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde laudantium atque illum, nisi dolore enim accusamus odit fuga! Porro, illum.</div>
