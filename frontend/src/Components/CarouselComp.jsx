@@ -9,7 +9,7 @@
   const CarouselComp = () => {
     return (
       <div className="mt-[200px]">
-      <h1 className="text-center text-2xl text-fuchsia-300 anton my-4 ">Your Favorite Fan Theoreies!!!!!!!!!!!</h1>
+      <h1 className="text-center text-2xl text-fuchsia-300 anton my-4 ">Your Favorite Fan Theories!!!!!!!!!!!</h1>
       <Carousel show={3.5} slide={3} swiping={true} leftArrow={true} rightArrow={true}>
         <img src={t1}
         
