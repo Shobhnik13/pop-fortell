@@ -6,11 +6,7 @@ import prediction from '../assets/pred3.png'
 const Details2 = () => {
   return (
     <div>
-<<<<<<< HEAD
     <div className='flex bg-[#101010] space-x-8 mt-8 w-[90%] m-auto rounded-3xl hover:bg-black cursor-pointer items-center'>
-=======
-    <div className='flex bg-[#101010] space-x-8 mt-[200px] w-[90%] m-auto rounded-3xl'>
->>>>>>> 579b3ce6c5e14529a5802fd5d62c9d9c74eff741
         <div className="text flex flex-col w-[60%]">
             <div className="uppertext font-bold text-white text-3xl  py-12 mx-12">
                 Lorem ipsum dolor sit amet consectetur adipisicing.
