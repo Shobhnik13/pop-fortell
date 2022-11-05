@@ -47,3 +47,10 @@ transition: all 0.5s;
   ::-webkit-scrollbar-thumb:hover {
     background: rgb(217 70 239);
   }
+  .optionbtn{
+  background-color: rgb(190, 101, 190);;
+  }
+  .optionbtn:hover{
+    color: rgb(190, 101, 190);
+    transition:all 0.5s;
+  }
