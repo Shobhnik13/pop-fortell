@@ -6,8 +6,10 @@ const Playground = () => {
   return (
     <div className="bg-black h-[300vh] bg-[url('./assets/tiles.svg')]">
       <Navbar/>
-        <h1 className="text-white text-2xl" >Playground</h1>
+        <h1 className="text-white text-2xl" ></h1>
+        <div>
     <VoteComp/>
+    </div>
     </div>
   )
 }
