@@ -23,8 +23,8 @@ const Home = () => {
       <Navbar />
       <div className="flex flex-col mt-[200px]">
         {" "}
-        <h1 className="text-8xl mt-9 anton text-fuchsia-500  text-center">
-          Trust your Instinct and <span className="text-span">Earn</span>{" "}
+        <h1 className="text-8xl mt-9 anton text-fuchsia-500  text-center neontext">
+          Trust your Instinct and <span className="text-span neontext">Earn</span>{" "}
         </h1>
         <p className="text-2xl mt-5 text-zinc-400 text-center font-medium">
           Welcome to the new age of P2E platform where you can earn by guessing
@@ -40,8 +40,7 @@ const Home = () => {
         ></div>
         <div className="flex justify-center">
         <Link to="/playground"><div className="connectBtn text-fuchsia-500 font-semibold  ">Play and Earn</div></Link>
-        <div className="connectBtn text-fuchsia-500 font-semibold">Learn More</div>
-        </div>
+<Link to="/learnmore">      <div className="connectBtn text-fuchsia-500 font-semibold">Learn More</div>   </Link>       </div>
       </div>
 
    <Details2/>

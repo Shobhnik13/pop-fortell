@@ -52,7 +52,7 @@ transition: all 0.5s;
     background: rgb(217 70 239);
   }
   .optionbtn{
-  background-color: rgb(190, 101, 190);;
+  background-color: rgb(190, 101, 190);
   }
   .optionbtn:hover{
     color: rgb(190, 101, 190);

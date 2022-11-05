@@ -9,6 +9,7 @@ import {
   Route,
  
 } from "react-router-dom";
+import Learnmore from './Pages/Learnmore'
 
 function App() {
  
@@ -19,6 +20,7 @@ function App() {
   <Routes>
     <Route path="/" element={<Home/>}/>
     <Route path="/playground" element={<Playground/>}/>
+     <Route path="/learnmore" element={<Learnmore/>}/>
 
 </Routes>
 </Router>
