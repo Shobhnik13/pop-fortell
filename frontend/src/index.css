@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -21,6 +22,9 @@ transition: all 0.5s;
 }
 .anton{
     font-family: 'Anton', sans-serif;
+}
+.font2{
+  font-family: 'Signika Negative', sans-serif;
 }
 .text-span {
     background-image:url('./assets/bottom.png') ;
@@ -46,4 +50,11 @@ transition: all 0.5s;
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
     background: rgb(217 70 239);
+  }
+  .optionbtn{
+  background-color: rgb(190, 101, 190);;
+  }
+  .optionbtn:hover{
+    color: rgb(190, 101, 190);
+    transition:all 0.5s;
   }
