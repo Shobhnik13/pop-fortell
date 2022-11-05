@@ -8,7 +8,11 @@ const Playground = () => {
       <Navbar/>
         <h1 className="text-white text-2xl" >Playground</h1>
     <VoteComp id={1}/>
+        <h1 className="text-white text-2xl" ></h1>
+        <div>
+    <VoteComp/>
     </div>
+    
   )
 }
 

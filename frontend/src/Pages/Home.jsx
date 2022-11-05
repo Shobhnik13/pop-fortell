@@ -1,4 +1,4 @@
-import React from "react";
+import React,{ useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom"
 import Navbar from "../Components/Navbar";
 import Playground from "./Playground";
@@ -12,16 +12,21 @@ import giphy from "../assets/giphy.gif";
 import Details2 from "../Components/Details2";
 import CarouselComp from "../Components/CarouselComp";
 import Footer from "../Components/Footer";
+import Aos from "aos";
+import "aos/dist/aos.css";
 const Home = () => {
   const navigate = useNavigate();
   const NavigateFunctions = () => {
     navigate("/playground");
   
   }
+    useEffect(()=>{
+Aos.init({duration:2000});
+    },[]); 
   return (
     <div className="bg-black h-[380vh] bg-[url('./assets/tiles.svg')]">
       <Navbar />
-      <div className="flex flex-col mt-[200px]">
+      <div className="flex flex-col mt-[200px]" data-aos="fade-down">
         {" "}
         <h1 className="text-8xl mt-9 anton text-fuchsia-500  text-center neontext">
           Trust your Instinct and <span className="text-span neontext">Earn</span>{" "}

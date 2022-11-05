@@ -10,6 +10,7 @@ import {
  
 } from "react-router-dom";
 import Learnmore from './Pages/Learnmore'
+import User from './Pages/User'
 
 function App() {
  
@@ -21,6 +22,7 @@ function App() {
     <Route path="/" element={<Home/>}/>
     <Route path="/playground" element={<Playground/>}/>
      <Route path="/learnmore" element={<Learnmore/>}/>
+     <Route path='/user' element={<User/>}/>
 
 </Routes>
 </Router>

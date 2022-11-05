@@ -1,11 +1,16 @@
-import React from 'react'
+import React,{ useEffect } from "react";
 import Navbar from '../Components/Navbar'
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Learnmore = () => {
+    useEffect(()=>{
+        Aos.init({duration: 900});
+    },[]);
   return (
     <div className="bg-black h-[100vh] bg-[url('./assets/tiles.svg')] ">
         <Navbar/>
-        <div className='w-[60%] bg-[#101010] p-4 mt-[120px] m-auto hover:bg-black hover:cursor-pointer rounded-xl'>
+        <div data-aos="fade-up" className='w-[60%] bg-[#101010] p-4 mt-[120px] m-auto hover:bg-black hover:cursor-pointer rounded-xl'>
         <div className='tnc anton  text-6xl  text-fuchsia-500 text-center'>TERMS AND CONDITIONS</div>
         <div className="tncli text-white text-xl font-semibold flex flex-col m-6">
             <li className='p-4'>User should be 18+ in age </li>
