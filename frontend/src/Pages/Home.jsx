@@ -24,7 +24,7 @@ const Home = () => {
 Aos.init({duration:2000});
     },[]); 
   return (
-    <div className="bg-black h-[380vh] bg-[url('./assets/tiles.svg')] my-[100px] ">
+    <div className="bg-black h-[300vh] bg-[url('./assets/tiles.svg')]">
       {/* <Navbar /> */}
       <div className="flex flex-col items-center justify-center" data-aos="fade-down">
         {" "}
