@@ -11,6 +11,7 @@ import {
 } from "react-router-dom";
 import Learnmore from './Pages/Learnmore'
 import User from './Pages/User'
+import Navbar from './Components/Navbar'
 
 function App() {
  
@@ -18,6 +19,7 @@ function App() {
   return (
     <div className="container">
 <Router>
+  <Navbar/>
   <Routes>
     <Route path="/" element={<Home/>}/>
     <Route path="/playground" element={<Playground/>}/>

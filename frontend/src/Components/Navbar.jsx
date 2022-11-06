@@ -1,6 +1,7 @@
 import React,{useState} from 'react'
 import logo from '../assets/logo.png'
 import logo2 from '../assets/logo3.png'
+import {Link} from 'react-router-dom';
 import { ethers } from "ethers";
 const Navbar = () => {
  
@@ -32,8 +33,12 @@ const Navbar = () => {
   return (
     <div className="nav bg-[#101010] h-[6rem] content-center   text-white flex justify-between">
     <img src={logo2} alt="" width="250px"  />
-        <div className="connectBtn text-fuchsia-500 font-semibold" onClick={connectwalletHandler}>{isConnected?newAddress:"Connect Wallet"}</div>
-    </div>
+        <div className="flex flex-row"><div className="connectBtn text-fuchsia-500 font-semibold" onClick={connectwalletHandler}>{isConnected?newAddress:"Connect Wallet"}</div>
+    
+  {isConnected&& <Link to='user'><div className="connectBtn text-fuchsia-500 font-semibold" >{isConnected?"User":""}</div></Link>}
+  </div>
+  </div>
+
   )
 }
 

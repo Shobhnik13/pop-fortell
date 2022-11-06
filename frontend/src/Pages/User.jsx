@@ -11,7 +11,7 @@ const User = () => {
     },[]);
   return (
     <div className="bg-black h-[200vh] bg-[url('./assets/tiles.svg')]">
-    <Navbar/>
+    {/* <Navbar/> */}
     <div data-aos="fade-down"className=' flex flex-col mt-10 w-[80%] m-auto bg-[#101010] rounded-2xl p-2 hover:bg-black hover:cursor-pointer'>
    <div className='anton text-fuchsia-500 text-5xl font-semibold text-center p-4 '>Your NFT Collection :</div>
    <div className="images flex w-[90%] m-auto">

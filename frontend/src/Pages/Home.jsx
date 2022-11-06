@@ -25,7 +25,7 @@ Aos.init({duration:2000});
     },[]); 
   return (
     <div className="bg-black h-[380vh] bg-[url('./assets/tiles.svg')]">
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="flex flex-col mt-[200px]" data-aos="fade-down">
         {" "}
         <h1 className="text-8xl mt-9 anton text-fuchsia-500  text-center neontext">

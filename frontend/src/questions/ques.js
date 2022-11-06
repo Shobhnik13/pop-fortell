@@ -4,6 +4,8 @@ export const question=[
         question:"Will X-men be introduced in Wakanda forever?",
         option1:"yes",
         option2:"no",
+        option3:"hue hue",
+        option4:"fuck u",
         answer:""
     },
     {
@@ -21,6 +23,7 @@ export const question=[
         option1:"Hero",
         option2:"Anti-hero",
         option3:"Villian",
+        option4:"Bisexual",
         answer:"",
     
     },
@@ -38,6 +41,8 @@ export const question=[
         question:"Will there be a fight sequence between Charon and John wick in John Wick: Chapter 4",
         option1:"yes",
         option2:"no",
+        option3:"yes",
+        option4:"no",
         answer:"",
     }
 ]
