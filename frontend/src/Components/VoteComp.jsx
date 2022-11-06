@@ -19,8 +19,8 @@ const VoteComp = ({ q }) => {
     Aos.init({ duration: 1500 });
   }, []);
   return (
-    <div className=" mx-4  justify-evenly mt-6 font2 font-medium ">
-      <div className="main w-[45%] bg-[#101010] p-[30px] hover:cursor-pointer rounded-2xl hover:bg-black ">
+    <div className=" mx-4  justify-evenly mt-6 font2 font-medium" data-aos="fade-down">
+      <div className="main w-[45%] bg-[#101010] p-[30px] hover:cursor-pointer rounded-2xl hover:bg-black">
         <div className="text-white question">
           <span className="  font-semiboldbold text-2xl text-fuchsia-500">
             Fan theory:{" "}
