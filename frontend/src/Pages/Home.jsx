@@ -24,9 +24,9 @@ const Home = () => {
 Aos.init({duration:2000});
     },[]); 
   return (
-    <div className="bg-black h-[380vh] bg-[url('./assets/tiles.svg')]">
+    <div className="bg-black h-[380vh] bg-[url('./assets/tiles.svg')] my-[100px] ">
       {/* <Navbar /> */}
-      <div className="flex flex-col mt-[200px]" data-aos="fade-down">
+      <div className="flex flex-col items-center justify-center" data-aos="fade-down">
         {" "}
         <h1 className="text-8xl mt-9 anton text-fuchsia-500  text-center neontext">
           Trust your Instinct and <span className="text-span neontext">Earn</span>{" "}
