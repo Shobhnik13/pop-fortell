@@ -1,9 +1,12 @@
-import React from 'react'
+import React,{ useEffect } from "react";
 import Navbar from '../Components/Navbar'
 import VoteComp from '../Components/VoteComp'
 import { question } from '../questions/ques'
 
 const Playground = () => {
+  useEffect(()=>{
+    Aos.init({duration: 2000});
+  },[]);
   return (
     <div className="bg-black h-[300vh] bg-[url('./assets/tiles.svg')]">
       {/* <Navbar/> */}
