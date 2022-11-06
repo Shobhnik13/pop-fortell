@@ -21,9 +21,7 @@ import "aos/dist/aos.css";
 const VoteComp = () => {
     useEffect(()=>{
         Aos.init({duration: 1500});
-    },[]);
->>>>>>> bba824d13e41fcc4dba5921a7c49cb6184ec7633
-  return (
+    },[]);  return (
     <div className=' mx-4  justify-evenly mt-6 font2 font-medium '>
 
 <<<<<<< HEAD
