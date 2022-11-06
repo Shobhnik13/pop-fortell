@@ -2,6 +2,8 @@ import React,{ useEffect } from "react";
 import Navbar from '../Components/Navbar'
 import VoteComp from '../Components/VoteComp'
 import { question } from '../questions/ques'
+import "aos/dist/aos.css";
+import Aos from "aos";
 
 const Playground = () => {
   useEffect(()=>{
